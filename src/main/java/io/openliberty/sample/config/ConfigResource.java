@@ -45,7 +45,7 @@ public class ConfigResource {
     for (ConfigSource source : config.getConfigSources()) {
       sourcesBuilder.add(source.getName(), source.getOrdinal());
     }
-    return sourcesBuilder.build();
+    return sourcesBuilder.build() ;
   }
 
   public JsonObject propertyJsonBuilder() {
