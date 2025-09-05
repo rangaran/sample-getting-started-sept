@@ -27,7 +27,7 @@ import org.eclipse.microprofile.config.spi.ConfigSource;
 
 @RequestScoped
 @Path("/config")
-public class ConfigResource {
+public class ConfigResource  {
 
   @Inject
   private Config config;
